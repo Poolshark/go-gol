@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"time"
 	"math/rand/v2"
+	"time"
 )
 
 const WIDTH int = 50
@@ -140,7 +140,7 @@ func main() {
 	hide()
 	clear()
 	set_initial(Random)
-    print_grid()
+	print_grid()
 
-    run(5000, 100)
+	run(5000, 100)
 }
